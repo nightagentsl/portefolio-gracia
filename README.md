@@ -1,8 +1,8 @@
 # Portfolio de Gracia Nambea
 
-Portfolio personnel de **Gracia Nambea**, étudiante en Bachelor 3 Cybersécurité et réserviste opérationnelle dans l'Armée de Terre.
+Je suis **Gracia Nambea**, étudiante en Bachelor 3 Cybersécurité et réserviste opérationnelle dans l'Armée de Terre.
 
-Le site présente son profil, ses projets en cybersécurité, son parcours et ses compétences autour de trois axes :
+J'ai créé ce portfolio pour présenter mon profil, mes projets en cybersécurité, mon parcours et mes compétences autour de trois axes :
 
 - SOC et supervision de sécurité
 - Gouvernance, Risques et Conformité (GRC)
@@ -10,15 +10,15 @@ Le site présente son profil, ses projets en cybersécurité, son parcours et se
 
 ## Aperçu
 
-Le portfolio est une page web statique responsive, pensée pour une consultation sur ordinateur, tablette et téléphone.
+J'ai conçu ce portfolio comme une page web statique responsive, pensée pour une consultation sur ordinateur, tablette et téléphone.
 
-Il comprend notamment :
+J'y présente notamment :
 
-- une présentation du profil et de la recherche d'alternance ;
-- les projets PSSI GlobalTech, Booking App et TP SOC ;
-- le parcours académique et professionnel ;
-- les compétences techniques et de gouvernance ;
-- les liens de contact, GitHub et LinkedIn.
+- mon profil et ma recherche d'alternance ;
+- mes projets PSSI GlobalTech, Booking App et TP SOC ;
+- mon parcours académique et professionnel ;
+- mes compétences techniques et de gouvernance ;
+- mes liens de contact, GitHub et LinkedIn.
 
 ## Technologies
 
@@ -30,7 +30,7 @@ Il comprend notamment :
 
 ## Lancer le projet en local
 
-Le projet ne nécessite aucune installation de dépendances.
+Mon projet ne nécessite aucune installation de dépendances.
 
 ### Avec Visual Studio Code
 
@@ -40,7 +40,7 @@ Le projet ne nécessite aucune installation de dépendances.
 
 ### Avec un serveur HTTP local
 
-Depuis le dossier du projet, utiliser un serveur HTTP disponible sur la machine, puis ouvrir l'adresse affichée dans le navigateur.
+Depuis le dossier du projet, j'utilise un serveur HTTP disponible sur ma machine, puis j'ouvre l'adresse affichée dans le navigateur.
 
 Par exemple, avec Python :
 
@@ -52,13 +52,13 @@ Le site sera disponible à l'adresse `http://localhost:5500`.
 
 ## Déploiement
 
-Le workflow situé dans `.github/workflows/deploy-pages.yml` déploie automatiquement le contenu du dépôt sur GitHub Pages à chaque push sur la branche `main`.
+J'utilise le workflow situé dans `.github/workflows/deploy-pages.yml` pour déployer automatiquement le contenu du dépôt sur GitHub Pages à chaque push sur la branche `main`.
 
 Une fois GitHub Pages activé dans les paramètres du dépôt, le site est accessible à l'adresse :
 
 [https://nightagentsl.github.io/portefolio-gracia/](https://nightagentsl.github.io/portefolio-gracia/)
 
-Pour activer Pages manuellement :
+Pour activer Pages manuellement, je suis ces étapes :
 
 1. Ouvrir **Settings** dans le dépôt GitHub.
 2. Aller dans **Pages**.
@@ -85,4 +85,4 @@ Pour activer Pages manuellement :
 ## Auteur
 
 **Gracia Nambea**  
-Alternance cybersécurité — SOC / GRC & sécurité opérationnelle
+Étudiante en cybersécurité — SOC / GRC & sécurité opérationnelle
