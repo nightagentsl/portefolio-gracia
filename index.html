@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Gracia Nambea, étudiante en cybersécurité spécialisée en SOC, GRC et sécurité opérationnelle.">
+  <title>Gracia Nambea — Cybersécurité</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Retour en haut de la page">
+        <span class="brand-mark">GN</span>
+        <span>GRACIA NAMBEA</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+        <a href="#profil">Profil</a>
+        <a href="#projets">Projets</a>
+        <a href="#parcours">Parcours</a>
+        <a class="nav-contact" href="mailto:gnambea.securite@gmail.com">Me contacter <span>↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse-dot"></span> Disponible en alternance · Septembre 2026</p>
+          <h1 id="hero-title">Protéger les systèmes.<br><em>Comprendre le risque.</em></h1>
+          <p class="hero-intro">Étudiante en Bachelor 3 Cybersécurité, je construis une approche qui relie l’analyse, la conformité et la réalité du terrain.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projets">Découvrir mes projets <span>↓</span></a>
+            <a class="text-link" href="mailto:gnambea.securite@gmail.com">Échanger avec moi <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-label="Résumé du profil">
+          <div class="signal-card">
+            <div class="signal-top"><span class="mono-label">PROFILE / GN-2026</span><span class="signal-live">LIVE</span></div>
+            <div class="signal-graphic" aria-hidden="true"><span class="ring ring-one"></span><span class="ring ring-two"></span><span class="signal-cross"></span><span class="signal-center">GN</span></div>
+            <div class="signal-bottom"><span>GRC</span><span>SOC</span><span>OPS</span></div>
+          </div>
+          <p class="aside-note"><span>01</span> Une culture de la discipline opérationnelle au service de la sécurité numérique.</p>
+        </div>
+      </section>
+
+      <section id="profil" class="manifesto section-grid" aria-labelledby="profil-title">
+        <div class="section-label"><span>01</span><span>À propos</span></div>
+        <div class="manifesto-content">
+          <h2 id="profil-title">La sécurité ne se résume pas à un outil. <span>C’est une façon de penser.</span></h2>
+          <div class="manifesto-details">
+            <p>Je me spécialise en <strong>Gouvernance, Risques et Conformité</strong> ainsi qu’en sécurité opérationnelle. Mon objectif : contribuer à la protection des systèmes d’information en transformant les exigences de sécurité en actions concrètes.</p>
+            <div class="fact-list">
+              <div><span class="fact-number">02</span><span>Nantes<br>Angers · Rennes</span></div>
+              <div><span class="fact-number">2/1</span><span>Semaines entreprise<br>pour 1 semaine école</span></div>
+              <div><span class="fact-number">B2</span><span>Anglais<br>Espagnol C1</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projets" class="projects section-grid" aria-labelledby="projects-title">
+        <div class="section-label"><span>02</span><span>Projets sélectionnés</span></div>
+        <div class="projects-content">
+          <div class="section-heading"><h2 id="projects-title">Du cadre<br><em>à la preuve.</em></h2><p>Des projets qui montrent ma manière de passer d’un risque identifié à une réponse mesurable.</p></div>
+          <div class="project-list">
+            <article class="project project-featured">
+              <div class="project-index">01 / 03</div>
+              <div class="project-body"><p class="project-type">Gouvernance · Conformité</p><h3>PSSI GlobalTech</h3><p>Production d’indicateurs de pilotage RSSI et suivi des plans d’actions dans un contexte aligné sur ISO 27001, NIS2 et DORA.</p><div class="tag-list"><span>PSSI</span><span>EBIOS RM</span><span>ISO 27001</span><span>RSSI</span></div></div>
+              <span class="project-arrow">↗</span>
+            </article>
+            <article class="project">
+              <div class="project-index">02 / 03</div>
+              <div class="project-body"><p class="project-type">Développement sécurisé</p><h3>Booking App</h3><p>Refactoring d’une application de réservation avec architecture 3 couches, 2FA TOTP et journalisation structurée.</p><div class="tag-list"><span>2FA</span><span>OWASP</span><span>Audit logging</span></div><a class="project-link" href="https://github.com/nightagentsl/Booking-app" target="_blank" rel="noreferrer">Voir sur GitHub ↗</a></div>
+              <span class="project-arrow">↗</span>
+            </article>
+            <article class="project">
+              <div class="project-index">03 / 03</div>
+              <div class="project-body"><p class="project-type">SOC · Supervision</p><h3>TP SOC — Splunk &amp; Wazuh</h3><p>Analyse d’alertes, interprétation de logs et suivi de vulnérabilités pour comprendre les signaux faibles.</p><div class="tag-list"><span>Splunk</span><span>Wazuh</span><span>Logs</span></div></div>
+              <span class="project-arrow">↗</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="parcours" class="path section-grid" aria-labelledby="path-title">
+        <div class="section-label"><span>03</span><span>Parcours</span></div>
+        <div class="path-content"><div class="section-heading"><h2 id="path-title">Apprendre.<br><em>Servir. Évoluer.</em></h2></div><div class="timeline">
+          <div class="timeline-item"><span class="timeline-date">2024 — présent</span><div><h3>Bachelor Cybersécurité</h3><p>Nantes Ynov Campus · B3</p></div></div>
+          <div class="timeline-item"><span class="timeline-date">2023 — présent</span><div><h3>Réserviste opérationnelle</h3><p>Armée de Terre · Discipline, gestion d’équipe et situations critiques</p></div></div>
+          <div class="timeline-item"><span class="timeline-date">2023</span><div><h3>Stage</h3><p>Gendarmerie Nationale · Rapports d’intervention et analyse de risques</p></div></div>
+          <div class="timeline-item"><span class="timeline-date">2021 — 2024</span><div><h3>Bac Pro Métiers de la Sécurité</h3><p>Mention Bien</p></div></div>
+        </div></div>
+      </section>
+
+      <section class="toolkit section-grid" aria-labelledby="toolkit-title">
+        <div class="section-label"><span>04</span><span>Boîte à outils</span></div>
+        <div class="toolkit-content"><h2 id="toolkit-title">Les fondamentaux<br>qui me structurent.</h2><div class="tool-grid"><div><p class="tool-title">Opérationnel</p><p>Active Directory · Windows Server · Linux · Microsoft 365 · Azure · Endpoints · Firewalls · Wireshark</p></div><div><p class="tool-title">Gouvernance</p><p>EBIOS RM · ISO 27001 / 27002 · ANSSI · NIS2 · DORA · RGPD · Sensibilisation phishing</p></div><div><p class="tool-title">Certifications en cours</p><p>MOOC EBIOS Risk Manager — Club EBIOS / ANSSI<br>IBM SkillsBuild — Cybersecurity Fundamentals</p></div></div></div>
+      </section>
+
+      <section class="contact-cta" aria-labelledby="contact-title"><p class="eyebrow">Une mission à sécuriser ?</p><h2 id="contact-title">Construisons la suite<br><em>ensemble.</em></h2><a class="button button-light" href="mailto:gnambea.securite@gmail.com">gnambea.securite@gmail.com <span>↗</span></a></section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="current-year">2026</span> Gracia Nambea</span><span>Cybersécurité · SOC / GRC</span><a href="https://www.linkedin.com/in/gracia-nambea-tech" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/nightagentsl" target="_blank" rel="noreferrer">GitHub ↗</a></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
